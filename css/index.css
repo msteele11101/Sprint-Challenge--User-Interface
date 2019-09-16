@@ -70,6 +70,46 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* here is my nav */
+.container header { 
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+
+}
+header img{
+    height:auto;
+}
+#nav{
+display:flex;
+}
+#nav{
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+header nav .main-nav a{
+padding:0 40px;
+color: black;
+text-decoration: none;
+}
+header nav .main-nav a:hover{
+    color: #5d5d5d;
+}
+.container .jumbo-img{
+    margin:20px 0;
+    padding: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
 
 .top-content {
     display: flex;
@@ -77,6 +117,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 20px;
+}
+p{
+line-height: 1.4;
 }
 
 .top-content .text-container {
@@ -111,6 +155,17 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#box-1 {background-color: teal;}
+#box-2 {background-color: gold}
+#box-3 {background-color: cadetblue}
+#box-4 {background-color: coral}
+#box-5 {background-color: crimson}
+#box-6 {background-color: forestgreen}
+#box-7 {background-color: darkorchid}
+#box-8 {background-color: hotpink}
+#box-9 {background-color: indigo}
+#box-10 {background-color: dodgerblue}
 
 .bottom-content {
     display: flex;
