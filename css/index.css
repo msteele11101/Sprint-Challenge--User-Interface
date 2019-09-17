@@ -92,6 +92,7 @@ display:flex;
     justify-content: space-evenly;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 
 
 }
